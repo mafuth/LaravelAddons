@@ -1,12 +1,12 @@
 # LaravelAddons
 simple addons from my old framework
 
-##How to install
+## How to install
 ```sh
 composer require mafuth/laravel-addons
 ```
 
-##How to use:
+## How to use:
 ```PHP
   <?php
   use Mafuth\LaravelAddons\html;
