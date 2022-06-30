@@ -17,3 +17,21 @@ composer require mafuth/laravel-addons
   echo $html->minify("Your html goes here");
   echo $html->encode("Your html goes here");
 ```
+
+```php
+  <?php
+
+  namespace App\Http\Controllers;
+
+  use Illuminate\Http\Request;
+  use Mafuth\LaravelAddons\html;
+
+  class testController extends Controller
+  {
+      public function index(){
+          $html = new html();
+          return $html->minify(view('index'));
+      }
+  }
+
+```
