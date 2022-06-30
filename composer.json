@@ -1,0 +1,19 @@
+{
+    "name": "mafuth/laravel-addons",
+    "description": "simple addons from my old framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mafuth\\LaravelAddons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Mafaaz",
+            "email": "mafaaz708@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
